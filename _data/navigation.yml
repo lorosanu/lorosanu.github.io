@@ -1,0 +1,12 @@
+main:
+  - title: "Experience"
+    url: /
+  - title: "Education"
+    url: /
+  - title: "Research"
+    url: /
+  - title: "Résumé"
+    url: /
+  - title: "Programming"
+    url: /
+
