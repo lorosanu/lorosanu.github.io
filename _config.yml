@@ -7,9 +7,9 @@ title                    : "lorosanu.net"
 title_separator          : "-"
 name                     : "Luiza Sarzyniec (Orosanu)"
 description              : "Personal website"
-url                      :
+url                      : "http://lorosanu.net"
 baseurl                  :
-repository               :
+repository               : "lorosanu/lorosanu.github.io"
 teaser                   :
 words_per_minute         : 200
 comments:
@@ -42,7 +42,7 @@ atom_feed:
   path                   :
 
 # SEO Related
-google_site_verification :
+google_site_verification : "7_QLGAQQ1pA1bkRK1gZqziG5rPBM9XiK1GvjpYa2NUg"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
