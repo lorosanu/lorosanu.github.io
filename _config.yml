@@ -7,7 +7,7 @@ title                    : "lorosanu.net"
 title_separator          : "-"
 name                     : "Luiza Sarzyniec (Orosanu)"
 description              : "Personal website"
-url                      : "http://lorosanu.net"
+url                      : "https://lorosanu.net"
 baseurl                  : ""
 repository               : "lorosanu/lorosanu.github.io"
 teaser                   :
