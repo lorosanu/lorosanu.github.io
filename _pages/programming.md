@@ -23,6 +23,58 @@ permalink: programming/
   </thead>
   <tbody>
     <tr style="border-bottom: 1px solid LightGray; ">
+      <th colspan="3"> Online coding </th>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/online-coding/tree/master/CodeFights/">CodeFights</a></td>
+      <td> Python </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/online-coding/tree/master/Hackerrank">Hackerrank</a></td>
+      <td> Python/Ruby </td>
+      <td> Problems solved in my spare time </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/online-coding/tree/master/Codility">Codility</a></td>
+      <td> Python </td>
+      <td> </td>
+    </tr>
+    <tr style="border-bottom: 1px solid LightGray; ">
+      <th colspan="3"> Code snippets </th>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/lorosanu.github.io"> lorosanu.net </a></td>
+      <td> Markdown/HTML/CSS </td>
+      <td> Source code for this website: Jekyll with 'minimal mistakes' theme </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/python3_similarity-scores"> DeepDream </a></td>
+      <td> Python2 </td>
+      <td> Docker setup for DeepDream </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/python3_similarity-scores"> Similarity scores </a></td>
+      <td> Python3 </td>
+      <td> Compute TF-IDF based similarity scores between documents </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/cpp_similarity-scores"> Similarity scores </a></td>
+      <td> C++ </td>
+      <td> Compute TF-IDF based similarity scores between documents </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/misc/tree/master/acm"> ACM problems </a></td>
+      <td> C++ </td>
+      <td> Problems solved in college </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/misc/tree/master/ruby/benchmarks"> Benchmarks </a></td>
+      <td> Ruby </td>
+      <td> Help choose the fastest method among multiple solutions </td>
+    </tr>
+    
+    <tr style="border-bottom: 1px solid LightGray; ">
       <th colspan="3"> School </th>
     </tr>
     <tr>
@@ -54,39 +106,6 @@ permalink: programming/
       <td><a href="https://github.com/lorosanu/school-projects/tree/master/oc/python/mazegame">OC/Python</a></td>
       <td> Python </td>
       <td> Mazegame </td>
-    </tr>
-    <tr style="border-bottom: 1px solid LightGray; ">
-      <th colspan="3"> Code snippets </th>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/lorosanu/lorosanu.github.io"> lorosanu.net </a></td>
-      <td> Markdown/HTML/CSS </td>
-      <td> Source code for this website: Jekyll with 'minimal mistakes' theme </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/lorosanu/cpp_similarity-scores"> Similarity scores </a></td>
-      <td> C++ </td>
-      <td> Compute TF-IDF based similarity scores between documents </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/lorosanu/python3_similarity-scores"> Similarity scores </a></td>
-      <td> Python3 </td>
-      <td> Compute TF-IDF based similarity scores between documents </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/lorosanu/misc/tree/master/acm"> ACM problems </a></td>
-      <td> C++ </td>
-      <td> Problems solved in college </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/lorosanu/misc/tree/master/hackerrank"> Hackerrank problems </a></td>
-      <td> Python/Ruby </td>
-      <td> Problems solved in my spare time </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/lorosanu/misc/tree/master/ruby/benchmarks"> Benchmarks </a></td>
-      <td> Ruby </td>
-      <td> Help choose the fastest method among multiple solutions </td>
     </tr>
     <tr style="border-bottom: 1px solid LightGray; ">
       <th colspan="3"> Personal configs </th>
