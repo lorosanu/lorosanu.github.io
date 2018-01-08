@@ -11,8 +11,11 @@ title: Professional experience
 - Technical environment: Linux, Ruby, Python (gensim, sklearn, matplotlib), Shell Script, Git, Gerrit, Docker, ElasticSearch
 - Keywords: document classification (LSI & NNs), color classification (imagick & NNs)
 
-<img src="/assets/images/xilo/car_100x100.png" width="150" title="original image">
-<img src="/assets/images/xilo/car_recolored.png" width="150" title="recolored image">
+<figure class="third">
+<img src="/assets/images/xilo/car.jpg" title="original image">
+<img src="/assets/images/xilo/car_color_extraction.png" title="use predefined color clusters">
+<img src="/assets/images/xilo/car_color_detection.png" title="detect colors">
+</figure>
 
 ### PhD student
 - Company: Inria, Université de Lorraine (Nancy, France)
