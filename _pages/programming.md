@@ -23,6 +23,19 @@ permalink: programming/
   </thead>
   <tbody>
     <tr style="border-bottom: 1px solid LightGray; ">
+      <th colspan="3"> Machine learning </th>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/ml-notebooks"> ml-notebooks </a></td>
+      <td> Python3 </td>
+      <td> Machine learning notebooks (linear regression, logistic regression, ...) </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/deepdream"> DeepDream </a></td>
+      <td> Python2 </td>
+      <td> Docker setup for DeepDream </td>
+    </tr>
+    <tr style="border-bottom: 1px solid LightGray; ">
       <th colspan="3"> Online coding </th>
     </tr>
     <tr>
@@ -49,11 +62,6 @@ permalink: programming/
       <td> Source code for this website: Jekyll with 'minimal mistakes' theme </td>
     </tr>
     <tr>
-      <td><a href="https://github.com/lorosanu/python3_similarity-scores"> DeepDream </a></td>
-      <td> Python2 </td>
-      <td> Docker setup for DeepDream </td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/lorosanu/python3_similarity-scores"> Similarity scores </a></td>
       <td> Python3 </td>
       <td> Compute TF-IDF based similarity scores between documents </td>
@@ -73,7 +81,7 @@ permalink: programming/
       <td> Ruby </td>
       <td> Help choose the fastest method among multiple solutions </td>
     </tr>
-    
+
     <tr style="border-bottom: 1px solid LightGray; ">
       <th colspan="3"> School </th>
     </tr>
