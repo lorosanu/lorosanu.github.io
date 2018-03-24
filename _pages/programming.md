@@ -16,9 +16,9 @@ permalink: programming/
 <table>
   <thead>
     <tr style="border-bottom: 1px solid CadetBlue; border-top: 1px solid CadetBlue; ">
-      <th><h2 style="display: inline;"> Name </h2></th>
-      <th><h2 style="display: inline;"> Language </h2></th>
-      <th><h2 style="display: inline;"> Description </h2></th>
+      <th><b> Name </b></th>
+      <th><b> Language </b></th>
+      <th><b> Description </b></th>
     </tr>
   </thead>
   <tbody>
@@ -34,6 +34,11 @@ permalink: programming/
       <td><a href="https://github.com/lorosanu/deepdream"> DeepDream </a></td>
       <td> Python2 </td>
       <td> Docker setup for DeepDream </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/python3_similarity-scores"> Similarity scores </a></td>
+      <td> Python3 </td>
+      <td> Compute TF-IDF based similarity scores between documents </td>
     </tr>
     <tr style="border-bottom: 1px solid LightGray; ">
       <th colspan="3"> Online coding </th>
@@ -60,16 +65,6 @@ permalink: programming/
       <td><a href="https://github.com/lorosanu/lorosanu.github.io"> lorosanu.net </a></td>
       <td> Markdown/HTML/CSS </td>
       <td> Source code for this website: Jekyll with 'minimal mistakes' theme </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/lorosanu/python3_similarity-scores"> Similarity scores </a></td>
-      <td> Python3 </td>
-      <td> Compute TF-IDF based similarity scores between documents </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/lorosanu/cpp_similarity-scores"> Similarity scores </a></td>
-      <td> C++ </td>
-      <td> Compute TF-IDF based similarity scores between documents </td>
     </tr>
     <tr>
       <td><a href="https://github.com/lorosanu/misc/tree/master/acm"> ACM problems </a></td>
