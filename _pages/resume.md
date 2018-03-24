@@ -4,15 +4,18 @@ title: Résumé
 permalink: resume/
 ---
 
-<br>
+<div markdown="1" style="float: left; margin-left: 1%;">
+## English
+<figure markdown="1">
+[![English CV](/assets/cv/CV_Luiza_en_small.png "English CV"){: class="third" }](/assets/cv/CV_Luiza_2018_en.pdf)
+</figure>
+</div>
 
-<table>
-  <tr style="border-bottom: 1px solid CadetBlue; ">
-    <td style="text-align: center;"><h2 style="display: inline;"> English </h2></td>
-    <td style="text-align: center;"><h2 style="display: inline;"> French </h2></td>
-  </tr>
-  <tr>
-    <td style="text-align: center"><a href="/assets/cv/CV_Luiza_2017_en.pdf"><img src="/assets/cv/CV_Luiza_en_small.png" alt="English Résumé" /></a></td>
-    <td style="text-align: center"><a href="/assets/cv/CV_Luiza_2017_fr.pdf"><img src="/assets/cv/CV_Luiza_fr_small.png" alt="French Résumé" /></a></td>
-  </tr>
-</table>
+<div markdown="1" style="float: left; margin-left: 5%;">
+## French
+<figure markdown="1">
+[![French CV](/assets/cv/CV_Luiza_fr_small.png "French CV"){: class="third" }](/assets/cv/CV_Luiza_2018_fr.pdf)
+</figure>
+</div>
+
+<div style="clear: both;" />
