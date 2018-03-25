@@ -70,8 +70,8 @@ analytics:
 # Site Author
 author:
   name             : "Luiza Orosanu"
-  avatar           : "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAASNAAAAJDIzZTAxMTE1LTQzYjEtNDkwZi05MmFkLTFkMjM0MWQ5NTZhMw.jpg"
-  bio              : "Data Science & Machine Learning enthusiast"
+  avatar           : "assets/cv/portrait.jpg"
+  bio              : "Machine Learning enthusiast"
   location         : "Nancy, France"
   email            : "luiza DOT orosanu AT gmail DOT com"
   uri              :
