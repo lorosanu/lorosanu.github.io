@@ -26,6 +26,11 @@ permalink: programming/
       <th colspan="3"> Machine learning </th>
     </tr>
     <tr>
+      <td><a href="https://github.com/lorosanu/ml-notions"> ml-notions </a></td>
+      <td> Markdown </td>
+      <td> Machine learning notions </td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/lorosanu/ml-notebooks"> ml-notebooks </a></td>
       <td> Python3 </td>
       <td> Machine learning notebooks (linear regression, logistic regression, ...) </td>
