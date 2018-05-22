@@ -51,6 +51,11 @@ title: Education
       <th> Course </th>
     </tr>
     <tr>
+      <td> 2018 </td>
+      <td> Coursera </td>
+      <td> <a href="https://www.coursera.org/account/accomplishments/certificate/47QSTQZXTYCR">Machine Learning</a>, by Stanford University </td>
+    </tr>
+    <tr>
       <td> 2016 </td>
       <td> OpenClassrooms </td>
       <td>
