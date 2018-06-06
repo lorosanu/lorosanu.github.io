@@ -51,20 +51,31 @@ title: Education
       <th> Course </th>
     </tr>
     <tr>
-      <td> 2018 </td>
-      <td> Coursera </td>
-      <td> <a href="https://www.coursera.org/account/accomplishments/certificate/47QSTQZXTYCR">Machine Learning</a>, by Stanford University </td>
+      <td rowspan="2"> 2018 </td>
+      <td rowspan="2"> Coursera </td>
+      <td> 
+            <a href="/assets/certifications/2018_coursera_machine-learning_stanford.pdf">Machine Learning</a> by Stanford University
+      </td>
+    </tr>
+    <tr>
+      <td>
+            <a href="/assets/certifications/2018_coursera_deep-learning-specialization_deeplearningAI.pdf">Deep Learning Specialization</a> by deeplearning.ai <br>
+            <a href="/assets/certifications/2018_coursera_deep-learning-specialization_C1_neural-networks-and-deep-learning.pdf">- neural networks and deep learning </a> <br>
+            <a href="/assets/certifications/2018_coursera_deep-learning-specialization_C2_improving-deep-neural-networks.pdf">- improving deep neural networks</a> <br>
+            <a href="/assets/certifications/2018_coursera_deep-learning-specialization_C3_structuring-machine-learning-projects.pdf">- structuring machine learning projects</a> <br>
+            <a href="/assets/certifications/2018_coursera_deep-learning-specialization_C4_convolutional-neural-networks.pdf">- convolutional neural networks</a> <br>
+            <a href="/assets/certifications/2018_coursera_deep-learning-specialization_C5_sequence-models.pdf">- sequence models</a> 
+      </td>
     </tr>
     <tr>
       <td> 2016 </td>
       <td> OpenClassrooms </td>
       <td>
-        Reprenez le contrôle à l'aide de Linux <br>
-        Gérer son code avec Git et GitHub <br>
-        Apprenez à programmer en Python <br>
-        Lancez-vous dans la programmation avec Ruby <br>
-        Comprendre le web <br>
-        Concevez votre site web avec PHP et MySQL
+        <a href="/assets/certifications/2016_python.pdf">Programming with Python</a> <br>
+        <a href="/assets/certifications/2016_ruby.pdf">Programming with Ruby</a> <br>
+        <a href="/assets/certifications/2016_git-github.pdf">Manage your code with Git and GitHub</a> <br>
+        <a href="/assets/certifications/2016_linux.pdf">Using Linux</a> <br>
+        <a href="/assets/certifications/2016_web.pdf">Understanding the web</a> <br>
       </td>
     </tr>
   </tbody>
