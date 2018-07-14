@@ -32,6 +32,22 @@ html {
   font-size: 12px;
 }
 
+html {
+  font-size: 14px;
+
+  @include breakpoint($medium) {
+    font-size: 13px;
+  }
+
+  @include breakpoint($large) {
+    font-size: 15px;
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 17px;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin: 1.7em 0 0;
 }
