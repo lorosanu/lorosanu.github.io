@@ -2,6 +2,8 @@
 title: Programming
 layout: single
 permalink: programming/
+header:
+  overlay_image: assets/images/msc/forest.jpg
 ---
 
 <div style="float: right; ">
@@ -83,62 +85,6 @@ permalink: programming/
     </tr>
 
     <tr style="border-bottom: 1px solid LightGray; ">
-      <th colspan="3"> School </th>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/lorosanu/school-projects/tree/master/PNI">PNI</a></td>
-      <td> C++ </td>
-      <td> Small project on image processing (translation, rotation, zoom) </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/lorosanu/school-projects/tree/master/HeadTracking">HeadTracking</a></td>
-      <td> C# </td>
-      <td> BSc project on the aquisition and recognition of head movements </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/lorosanu/school-projects/tree/master/oc/bash/statistics-on-letters">OC/bash</a></td>
-      <td> Bash </td>
-      <td> Statistics on letters </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/lorosanu/school-projects/tree/master/oc/php/minichat">OC/PHP</a></td>
-      <td> PHP </td>
-      <td> Mini-chat </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/lorosanu/school-projects/tree/master/oc/ruby/fighting-game">OC/Ruby</a></td>
-      <td> Ruby </td>
-      <td> Fighting game </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/lorosanu/school-projects/tree/master/oc/python/mazegame">OC/Python</a></td>
-      <td> Python </td>
-      <td> Mazegame </td>
-    </tr>
-    <tr style="border-bottom: 1px solid LightGray; ">
-      <th colspan="3"> Personal configs </th>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/lorosanu/personal-configs/blob/master/linux/gnome_extensions.md"> Gnome </a></td>
-      <td> - </td>
-      <td> List of used gnome extensions </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/lorosanu/personal-configs/tree/master/bash"> Bash </a></td>
-      <td> - </td>
-      <td> Configuration files for Bash </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/lorosanu/personal-configs/tree/master/nano"> Nano </a></td>
-      <td> - </td>
-      <td> Configuration files for Nano </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/lorosanu/personal-configs/tree/master/sublime"> Sublime-Text-3 </a></td>
-      <td> - </td>
-      <td> Installation and setup for correct window management with multiple desktop workspaces </td>
-    </tr>
-    <tr style="border-bottom: 1px solid LightGray; ">
       <th colspan="3"> Tutorials </th>
     </tr>
     <tr>
@@ -176,6 +122,7 @@ permalink: programming/
       <td> docx/pdf </td>
       <td> Programming in Python </td>
     </tr>
+
     <tr style="border-bottom: 1px solid LightGray; ">
       <th colspan="3"> Research </th>
     </tr>
@@ -198,6 +145,64 @@ permalink: programming/
       <td><a href="https://github.com/lorosanu/research/tree/master/slides"> Presentations </a></td>
       <td> latex </td>
       <td> Presentations for conferences/meetings </td>
+    </tr>
+
+    <tr style="border-bottom: 1px solid LightGray; ">
+      <th colspan="3"> School </th>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/school-projects/tree/master/PNI">PNI</a></td>
+      <td> C++ </td>
+      <td> Small project on image processing (translation, rotation, zoom) </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/school-projects/tree/master/HeadTracking">HeadTracking</a></td>
+      <td> C# </td>
+      <td> BSc project on the aquisition and recognition of head movements </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/school-projects/tree/master/oc/bash/statistics-on-letters">OC/bash</a></td>
+      <td> Bash </td>
+      <td> Statistics on letters </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/school-projects/tree/master/oc/php/minichat">OC/PHP</a></td>
+      <td> PHP </td>
+      <td> Mini-chat </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/school-projects/tree/master/oc/ruby/fighting-game">OC/Ruby</a></td>
+      <td> Ruby </td>
+      <td> Fighting game </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/school-projects/tree/master/oc/python/mazegame">OC/Python</a></td>
+      <td> Python </td>
+      <td> Mazegame </td>
+    </tr>
+
+    <tr style="border-bottom: 1px solid LightGray; ">
+      <th colspan="3"> Personal configs </th>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/personal-configs/blob/master/linux/gnome_extensions.md"> Gnome </a></td>
+      <td> - </td>
+      <td> List of used gnome extensions </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/personal-configs/tree/master/bash"> Bash </a></td>
+      <td> - </td>
+      <td> Configuration files for Bash </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/personal-configs/tree/master/nano"> Nano </a></td>
+      <td> - </td>
+      <td> Configuration files for Nano </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/personal-configs/tree/master/sublime"> Sublime-Text-3 </a></td>
+      <td> - </td>
+      <td> Installation and setup for correct window management with multiple desktop workspaces </td>
     </tr>
   </tbody>
 </table>
