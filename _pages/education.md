@@ -2,6 +2,8 @@
 layout: single
 permalink: education/
 title: Education
+header:
+  overlay_image: assets/images/msc/forest.jpg
 ---
 
 <br>
@@ -9,7 +11,7 @@ title: Education
 <table>
   <thead>
     <tr style="border-bottom: 1px solid CadetBlue; border-top: 1px solid CadetBlue; ">
-      <th colspan='3'><h2 style="display: inline;"> Academic degrees </h2></th>
+      <th colspan='3'><b> Academic degrees </b></th>
     </tr>
   </thead>
   <tbody>
@@ -41,7 +43,7 @@ title: Education
   </tbody>
   <thead>
     <tr style="border-bottom: 1px solid CadetBlue; border-top: 1px solid CadetBlue; ">
-      <th colspan='3'><h2 style="display: inline;"> Online certifications </h2></th>
+      <th colspan='3'><b> Online certifications </b></th>
     </tr>
   </thead>
   <tbody>
@@ -51,8 +53,8 @@ title: Education
       <th> Course </th>
     </tr>
     <tr>
-      <td rowspan="2"> 2018 </td>
-      <td rowspan="2"> Coursera </td>
+      <td rowspan="3"> 2018 </td>
+      <td rowspan="3"> Coursera </td>
       <td> 
             <a href="/assets/certifications/2018_coursera_machine-learning_stanford.pdf">Machine Learning</a> by Stanford University
       </td>
@@ -65,6 +67,12 @@ title: Education
             <a href="/assets/certifications/2018_coursera_deep-learning-specialization_C3_structuring-machine-learning-projects.pdf">- structuring machine learning projects</a> <br>
             <a href="/assets/certifications/2018_coursera_deep-learning-specialization_C4_convolutional-neural-networks.pdf">- convolutional neural networks</a> <br>
             <a href="/assets/certifications/2018_coursera_deep-learning-specialization_C5_sequence-models.pdf">- sequence models</a> 
+      </td>
+    </tr><tr>
+      <td>
+            Data Science Specialization by Johns Hopkins University <br>
+            <a href="/assets/certifications/2018_coursera_data-science-specialization_toolbox.pdf">- The data scientist's toolbox </a> <br>
+            <a href="/assets/certifications/2018_coursera_data-science-specialization_R.pdf">- R programming </a> <br>
       </td>
     </tr>
     <tr>
