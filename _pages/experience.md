@@ -13,6 +13,7 @@ header:
 - Mission: Working on the __automatic query correction__. Defined a simple baseline meant to fix isolated non-word errors, using a spell-checker to generate low-distance candidates, and a language model to re-rank the spelling corrections.
 - Keywords: minimum edit distance, word embedding, language model
 - Technical environment: Python (spaCy, fasttext, hunspell, symspell, PyNLPl), SRILM, Shell Script, Git, GitLab, Docker, Linux
+- Open source code: [ccquery](https://github.com/lorosanu/ccquery)
 
 ## Machine Learning Engineer
 - Company: Xilopix (Epinal, France)
@@ -21,6 +22,7 @@ header:
 - Mission: Two subjects were tackled: the classification of documents and the classification of colors in images. Regarding the __document classification__ task, I was in charge of the entire machine learning workflow, from data acquisition, data processing up to deploying the code and models in production. Regarding the __color classification__ task, the neural network approach for the detection of main colors in images improved the engine’s filter by color results.
 - Keywords: corpus building, data processing, text classification, color classification, TF-IDF, LSA, neural networks
 - Technical environment: Ruby (rmagick), Python (gensim, sklearn, matplotlib), Shell Script, Git, Gerrit, Docker, ElasticSearch, Linux
+- Open source code: [xi-ml-topicdiscovery](), [xi-ml-colordetection]() 
 
 <figure class="third">
 <img src="/assets/images/xilo/car.jpg" title="original image">

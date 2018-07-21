@@ -25,6 +25,24 @@ header:
   </thead>
   <tbody>
     <tr style="border-bottom: 1px solid LightGray; ">
+      <th colspan="3"> Professional open-source projects </th>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/lorosanu/ccquery"> ccquery </a></td>
+      <td> Python3 </td>
+      <td> Qwant - query correction </td>
+    </tr>
+    <tr>
+      <td><a href=""> topic-discovery </a></td>
+      <td> Python3/Ruby </td>
+      <td> Xilopix - document classification </td>
+    </tr>
+    <tr>
+      <td><a href=""> color-detection </a></td>
+      <td> Ruby </td>
+      <td> Xilopix - image color classification </td>
+    </tr>
+    <tr style="border-bottom: 1px solid LightGray; ">
       <th colspan="3"> Machine learning </th>
     </tr>
     <tr>
