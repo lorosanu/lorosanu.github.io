@@ -73,8 +73,8 @@ header:
             Data Science Specialization by Johns Hopkins University <br>
             <a href="/assets/certifications/2018_coursera_data-science-specialization_C1_toolbox.pdf">- The data scientist's toolbox </a> <br>
             <a href="/assets/certifications/2018_coursera_data-science-specialization_C2_R.pdf">- R programming </a> <br>
-            <a href="/assets/certifications/2018_coursera_data-science-specialization_C3_GCD.pdf">- R programming </a> <br>
-            <a href="/assets/certifications/2018_coursera_data-science-specialization_C4_EDA.pdf">- R programming </a> <br>
+            <a href="/assets/certifications/2018_coursera_data-science-specialization_C3_GCD.pdf">- Getting and cleaning data </a> <br>
+            <a href="/assets/certifications/2018_coursera_data-science-specialization_C4_EDA.pdf">- Exploratory data analysis </a> <br>
       </td>
     </tr>
     <tr>
