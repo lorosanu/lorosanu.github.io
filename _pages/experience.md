@@ -10,7 +10,7 @@ header:
 - Company: Qwant (Epinal, France)
 - Period: Nov 2017 - present
 - Project: [Qwant](https://www.qwant.com), European search engine
-- Mission: Working on the __automatic query correction__. Defined a simple baseline meant to fix isolated non-word errors, using a spell-checker to generate low-distance candidates, and a language model to re-rank the spelling corrections.
+- Mission: This work focuses on the __automatic query correction__. I defined a simple baseline meant to fix isolated non-word errors, using a spell-checker to generate low-distance candidates and a language model to re-rank the spelling corrections.
 - Keywords: minimum edit distance, language model
 - Technical environment: Python (spaCy, fasttext, hunspell, symspell, PyNLPl), SRILM, Shell Script, Git, GitLab, Docker, Linux
 - Open source code: [ccquery](https://github.com/lorosanu/ccquery)
@@ -19,7 +19,7 @@ header:
 - Company: Xilopix (Epinal, France)
 - Period: Oct 2016 - Nov 2017
 - Project: [Xaphir](https://www.xaphir.com), French search engine
-- Mission: Two subjects were tackled: the classification of documents and the classification of colors in images. Regarding the __document classification__ task, I was in charge of the entire machine learning workflow, from data acquisition, data processing up to deploying the code and models in production. Regarding the __color classification__ task, the neural network approach for the detection of main colors in images improved the engine’s filter by color results.
+- Mission: This work focused on the __web page classification__ and on the __image color classification__. The web page content was mapped to a fixed-dimensional vector using TF-IDF and LSA. Both classification processes were performed with fully connected neural networks. I was in charge of the entire machine learning workflow, from data acquisition, data processing up to the deployment of code and models in production.
 - Keywords: corpus building, data processing, text classification, color classification, TF-IDF, LSA, neural networks
 - Technical environment: Ruby (rmagick), Python (gensim, sklearn, matplotlib), Shell Script, Git, Gerrit, Docker, ElasticSearch, Linux
 - Open source code: [xi-ml-topicdiscovery](https://github.com/lorosanu/xi-ml-topicdiscovery), [xi-dip](xi-dip) 
@@ -34,7 +34,7 @@ header:
 - Company: Inria, Université de Lorraine (Nancy, France)
 - Period: Dec 2012 - Feb 2016
 - Project: [RAPSODIE](http://www.erocca.com/rapsodie/rapsodie/), Speech recognition as a communication aid for deaf and hearing impaired people
-- Mission: Two tracks were studied: extracting para-lexical information and optimizing the lexical models. The objective at first was to build an embedded speech recognition system, meaning limited memory and computational power. Regarding the lexical modeling, I studied the choice of lexical units defining the vocabulary and the associated n-gram language model: like phonemes, words or syllables. I finally proposed a new approach based on the combination of words and syllables in a __hybrid language model__. This kind of model aimed to ensure a proper recognition of the most frequent words and to offer sequences of syllables for speech segments corresponding to out-of-vocabulary words. I also briefly worked on the __similarity between words__ (defined by similar neighbor distributions) in order to add new words into a language model. Regarding the extraction of para-lexical information, I focused on the __detection of questions and statements__, in order to inform the deaf and hearing impaired people when a question was addressed to them. I defined features related to the presence of interrogative words, to the likelihood ratio between two n-gram language models (trained on statements and on questions) and to the pronunciation at the end of the sentence. Several classifiers were evaluated: logistic regression, decision trees and shallow neural networks.
+- Mission: This work focused on the optimization of lexical models for a speech recognition system and on the extraction of para-lexical information from speech. The project's objective was, at first, to build an embedded speech recognition system, meaning limited memory and computational power. I studied the choice of lexical units defining the vocabulary and the associated n-gram language model: like phonemes, words or syllables. I finally proposed a new approach based on the combination of words and syllables in a __hybrid language model__. This kind of model aimed to ensure a proper recognition of the most frequent words and to offer sequences of syllables for speech segments corresponding to out-of-vocabulary words. I also briefly worked on the __similarity between words__ (defined by similar neighbor distributions) in order to add new words into a language model. I studied the __detection of questions and statements__ in order to inform the deaf and hearing impaired people when a question was addressed to them. I defined features related to the presence of interrogative words, to the likelihood ratio between two n-gram language models (trained on statements and on questions) and to the pronunciation at the end of the sentence. Several classifiers were evaluated: logistic regression, decision trees and shallow neural networks.
 - Keywords: speech recognition, hybrid language model, similar words, question detection
 - Technical environment: Perl, Java (Weka), SRILM, CMU Sphinx, Shell Script, Gnuplot, LaTeX, Git, distributed computing platform, Linux
 
@@ -47,7 +47,7 @@ header:
 ## Support the integration of foreigners working at INRIA (LORIA)
 - Company: INRIA (Nancy, France)
 - Period: Feb 2014 – Aug 2015
-- Mission: I organized meetings and activities in order to facilitate the integration of foreigners in the center. I answered practical and cultural questions. I assisted with administrative procedures.
+- Mission: I organized meetings (guided visits of the old town) and activities (monthly board games sessions) in order to facilitate the integration of foreigners in the center. I answered practical and cultural questions. I assisted with administrative procedures (welcoming of new arrivals, French tax presentations).
 
 <figure class="third">
   <img src="/assets/images/fm/board_games.jpg" title="board games">
@@ -59,7 +59,7 @@ header:
 - Company: Inria (Nancy, France)
 - Period: Oct 2011 - Dec 2012
 - Project: [ALLEGRO](http://www.allegro-project.eu/), Speech recognition for second language learning
-- Mission: This work focused on the __detection of incorrect entries__ (i.e. those for which the text does not correspond to the associated speech signal) of non-native speech in the context of foreign language learning. The proposed approach exploited the comparison between two text-to-speech alignments: one constrained by the text which was being checked (forced alignment), with another one unconstrained, corresponding to a phonetic decoding (using a phoneme loop or a word loop). Several comparison criteria were combined via a logistic regression function: the likelihood ratios, the use of phonemes and their duration, of phonetic classes and of non-speech units. This position revolved mainly around __feature engineering__ (using domain knowledge) and __performance analysis__.
+- Mission: This work focused on the __detection of incorrect entries__ (i.e. those for which the text does not correspond to the associated speech signal) of non-native speech in the context of foreign language learning. I exploited the comparison between two text-to-speech alignments: one constrained by the text which was being checked (forced alignment), with another one unconstrained, corresponding to a phonetic decoding (using a phoneme loop or a word loop). I combined several comparison criteria via a logistic regression function: the likelihood ratios, the use of phonemes and their duration, of phonetic classes and of non-speech units. This position revolved mainly around __feature engineering__ (using domain knowledge) and __performance analysis__.
 - Keywords: speech recognition, incorrect entries, non-native speech, constrained and unconstrained alignments, logistic regression
 - Technical environment: Perl, Shell Script, Gnuplot, LaTeX, Linux
 
