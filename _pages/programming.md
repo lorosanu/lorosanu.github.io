@@ -33,12 +33,12 @@ header:
       <td> Qwant - query correction </td>
     </tr>
     <tr>
-      <td><a href=""> topic-discovery </a></td>
+      <td><a href="https://github.com/lorosanu/xi-ml-topicdiscovery"> topic-discovery </a></td>
       <td> Python3/Ruby </td>
       <td> Xilopix - document classification </td>
     </tr>
     <tr>
-      <td><a href=""> color-detection </a></td>
+      <td><a href="https://github.com/lorosanu/xi-dip"> color-detection </a></td>
       <td> Ruby </td>
       <td> Xilopix - image color classification </td>
     </tr>
