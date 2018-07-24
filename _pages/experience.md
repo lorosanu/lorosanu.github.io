@@ -22,7 +22,7 @@ header:
 - Mission: This work focused on the __web page classification__ and on the __image color classification__. The web page content was mapped to a fixed-dimensional vector using TF-IDF and LSA. Both classification processes were performed with fully connected neural networks. I was in charge of the entire machine learning workflow, from data acquisition, data processing up to the deployment of code and models in production.
 - Keywords: corpus building, data processing, text classification, color classification, TF-IDF, LSA, neural networks
 - Technical environment: Ruby (rmagick), Python (gensim, sklearn, matplotlib), Shell Script, Git, Gerrit, Docker, ElasticSearch, Linux
-- Open source code: [xi-ml-topicdiscovery](https://github.com/lorosanu/xi-ml-topicdiscovery), [xi-dip](xi-dip) 
+- Open source code: [xi-ml-topicdiscovery](https://github.com/lorosanu/xi-ml-topicdiscovery), [xi-dip](https://github.com/lorosanu/xi-dip)
 
 <figure class="third">
 <img src="/assets/images/xilo/car.jpg" title="original image">
