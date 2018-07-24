@@ -19,7 +19,7 @@ header:
 - Company: Xilopix (Epinal, France)
 - Period: Oct 2016 - Nov 2017
 - Project: [Xaphir](https://www.xaphir.com), French search engine
-- Mission: This work focused on the __web page classification__ and on the __image color classification__. The web page content was mapped to a fixed-dimensional vector using TF-IDF and LSA. Both classification processes were performed with fully connected neural networks. I was in charge of the entire machine learning workflow, from data acquisition, data processing up to the deployment of code and models in production.
+- Mission: This work focused on the __web page classification__ and on the __image color classification__. The web page content was mapped to a fixed-dimensional vector using TF-IDF and LSA. Both classification processes were performed with fully connected neural networks. I was charged with the entire machine learning workflow, from data acquisition, data processing up to the development of libraries and the deployment of code and models in production.
 - Keywords: corpus building, data processing, text classification, color classification, TF-IDF, LSA, neural networks
 - Technical environment: Ruby (rmagick), Python (gensim, sklearn, matplotlib), Shell Script, Git, Gerrit, Docker, ElasticSearch, Linux
 - Source code: [xi-ml-topicdiscovery](https://github.com/lorosanu/xi-ml-topicdiscovery), [xi-dip](https://github.com/lorosanu/xi-dip)
@@ -47,7 +47,7 @@ header:
 ## Support the integration of foreigners working at INRIA (LORIA)
 - Company: INRIA (Nancy, France)
 - Period: Feb 2014 – Aug 2015
-- Mission: I organized meetings (guided visits of the old town) and activities (monthly board games sessions) in order to facilitate the integration of foreigners in the center. I answered practical and cultural questions. I assisted with administrative procedures (welcoming of new arrivals, French tax presentations).
+- Mission: I organized meetings (guided visits of the old town) and activities (monthly board games sessions) in order to facilitate the integration of foreigners in the center. I answered practical and cultural questions. I assisted with administrative procedures (welcoming of new arrivals, presentations of the French tax system).
 
 <figure class="third">
   <img src="/assets/images/fm/board_games.jpg" title="board games">
