@@ -27,4 +27,3 @@ __Note__: the [website](https://lorosanu.net/) is built and deployed by [Travis 
     ```
 
 * The website will be available at `http://0.0.0.0:4000/`
-```
