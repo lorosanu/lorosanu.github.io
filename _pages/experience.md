@@ -6,14 +6,19 @@ header:
   overlay_image: assets/images/msc/forest.jpg
 ---
 
+## Looking for a new challenge
+- Location: Amsterdam, Netherlands
+- Position: Machine Learning Engineer / Data Scientist
+- Mission: work on a great variety of machine learning applications using state-of-the-art technologies within a dynamic and collaborative team
+
 ## Machine Learning Engineer
 - Company: Qwant (Epinal, France)
-- Period: Nov 2017 - present
+- Period: Nov 2017 - Aug 2018
 - Project: [Qwant](https://www.qwant.com), European search engine
-- Mission: This work focuses on the __automatic query correction__. I defined a simple baseline meant to fix isolated non-word errors, using a spell-checker to generate low-distance candidates and a language model to re-rank the spelling corrections.
+- Mission: This work focused on the __automatic query correction__. I defined a simple baseline meant to fix isolated non-word errors, using a spell-checker to generate low-distance candidates and a language model to re-rank the spelling corrections.
 - Keywords: minimum edit distance, language model
 - Technical environment: Python (spaCy, fasttext, hunspell, symspell, PyNLPl), SRILM, Shell Script, Git, GitLab, Docker, Linux
-- Source code: [ccquery](https://github.com/lorosanu/ccquery)
+- __Source code__: [ccquery](https://github.com/lorosanu/ccquery)
 
 ## Machine Learning Engineer
 - Company: Xilopix (Epinal, France)
@@ -22,7 +27,7 @@ header:
 - Mission: This work focused on the __web page classification__ and on the __image color classification__. The web page content was mapped to a fixed-dimensional vector using TF-IDF and LSA. Both classification processes were performed with fully connected neural networks. I was charged with the entire machine learning workflow, from data acquisition, data processing up to the development of libraries and the deployment of code and models in production.
 - Keywords: corpus building, data processing, text classification, color classification, TF-IDF, LSA, neural networks
 - Technical environment: Ruby (rmagick), Python (gensim, sklearn, matplotlib), Shell Script, Git, Gerrit, Docker, ElasticSearch, Linux
-- Source code: [xi-ml-topicdiscovery](https://github.com/lorosanu/xi-ml-topicdiscovery), [xi-dip](https://github.com/lorosanu/xi-dip)
+- __Source code__: [xi-ml-topicdiscovery](https://github.com/lorosanu/xi-ml-topicdiscovery), [xi-dip](https://github.com/lorosanu/xi-dip)
 
 <figure class="third">
 <img src="/assets/images/xilo/car.jpg" title="original image">
