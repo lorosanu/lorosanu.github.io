@@ -3,7 +3,7 @@ title: Research
 layout: single
 permalink: research/
 header:
-  overlay_image: assets/images/msc/forest.jpg
+  overlay_image: assets/images/msc/light_bulbs.png
 ---
 
 <div style="float: right; ">

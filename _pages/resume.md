@@ -3,7 +3,7 @@ layout: single
 title: Résumé
 permalink: resume/
 header:
-  overlay_image: assets/images/msc/forest.jpg
+  overlay_image: assets/images/msc/light_bulbs.png
 ---
 
 <div markdown="1" style="float: left; margin-left: 1%;">

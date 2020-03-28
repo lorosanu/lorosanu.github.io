@@ -3,7 +3,7 @@ layout: single
 permalink: education/
 title: Education
 header:
-  overlay_image: assets/images/msc/forest.jpg
+  overlay_image: assets/images/msc/light_bulbs.png
 ---
 
 <br>
@@ -55,7 +55,7 @@ header:
     <tr>
       <td rowspan="3"> 2018 </td>
       <td rowspan="3"> Coursera </td>
-      <td> 
+      <td>
             <a href="/assets/certifications/2018_coursera_machine-learning_stanford.pdf">Machine Learning</a> by Stanford University
       </td>
     </tr>
@@ -66,7 +66,7 @@ header:
             <a href="/assets/certifications/2018_coursera_deep-learning-specialization_C2_improving-deep-neural-networks.pdf">- improving deep neural networks</a> <br>
             <a href="/assets/certifications/2018_coursera_deep-learning-specialization_C3_structuring-machine-learning-projects.pdf">- structuring machine learning projects</a> <br>
             <a href="/assets/certifications/2018_coursera_deep-learning-specialization_C4_convolutional-neural-networks.pdf">- convolutional neural networks</a> <br>
-            <a href="/assets/certifications/2018_coursera_deep-learning-specialization_C5_sequence-models.pdf">- sequence models</a> 
+            <a href="/assets/certifications/2018_coursera_deep-learning-specialization_C5_sequence-models.pdf">- sequence models</a>
       </td>
     </tr><tr>
       <td>

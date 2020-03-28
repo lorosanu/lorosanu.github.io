@@ -3,12 +3,12 @@ title: Programming
 layout: single
 permalink: programming/
 header:
-  overlay_image: assets/images/msc/forest.jpg
+  overlay_image: assets/images/msc/light_bulbs.png
 ---
 
 <div style="float: right; ">
   <p>
-    <i class="fa fa-fw fa-github"> </i>
+    <i class="fab fa-fw fa-github"> </i>
     <a href="https://github.com/lorosanu"> GitHub </a>
      ·
     <a href="https://www.hackerrank.com/lorosanu"> Hackerrank </a>
