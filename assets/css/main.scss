@@ -73,3 +73,27 @@ table tr,
 table tr td {
   border: 0px;
 }
+
+table {
+  display: table;
+}
+
+div.container {
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	top:-100px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  font-family: "Brush Script MT";
+  font-size: 32pt;
+  line-height: 1;
+	margin: auto;
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  height: 140%;
+}
