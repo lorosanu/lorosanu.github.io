@@ -11,7 +11,6 @@ header:
 - Location: Amsterdam, Netherlands
 - Period: Jan 2019 - Present
 - Product: Skills normalization in CVs and vacancies
-- Mission: work on and partially lead the skills normalization project
 - Technical environment: Python, Perl, Shell Script, Git, GitLab, Docker, Kubernetes, Linux
 
 ## Machine Learning Engineer
