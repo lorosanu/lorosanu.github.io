@@ -3,7 +3,7 @@ theme: minimal-mistakes-jekyll
 
 # Site Settings
 locale                   : "en"
-title                    : "lorosanu.net"
+title                    : "Home"
 title_separator          : "-"
 name                     : "Luiza Sarzyniec (Orosanu)"
 description              : "Personal website"
