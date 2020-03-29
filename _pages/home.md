@@ -6,7 +6,7 @@ header:
   overlay_image: assets/images/msc/light_bulbs.png
 ---
 <div class="container2">
-  <img src="assets/cv/portrait.jpg" alt="Avatar"><br>
+  <img src="assets/cv/profile.jpg" alt="Avatar"><br>
   <h1>
     <a href="https://www.google.com/maps/place/Amsterdam" title="Location"><i class="fas fa-fw fa-map-marker-alt" style="color:midnightblue"></i></a>
     <a href="mailto:luiza DOT orosanu AT gmail DOT com" title="Email"><i class="fa fa-fw fa-envelope-square" style="color:midnightblue"></i></a>
