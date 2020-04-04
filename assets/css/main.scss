@@ -78,16 +78,26 @@ table {
   display: table;
 }
 
-div.container2 {
-	position: absolute;
-  position-anchor: 50% 50%;
-  left: 40%;
-  top: 30%;
+main {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main div {
+  margin-top: 5%;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
   text-align: center;
 }
 
-div.container2 img {
+main div img {
   border-radius: 50%;
-  max-width: 50%;
+  max-width: 20%;
   height: auto;
+}
+
+main div h2 {
+  line-height: 160%;
 }
