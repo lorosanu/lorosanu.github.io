@@ -10,8 +10,13 @@ header:
 - Company: [Textkernel](https://www.textkernel.com/), Machine intelligence for people and jobs
 - Location: Amsterdam, Netherlands
 - Period: Jan 2019 - Present
-- Product: Skills normalization in CVs and vacancies
-- Technical environment: Python, Perl, Shell Script, Git, GitLab, Docker, Kubernetes, Linux
+- Mission
+  - Mixed software engineer, machine learning engineer and project leader role. Lead the __skills normalization__ project, planned the release of new features and managed cross-team interactions while being fully involved in the development. Involved in training and evaluating a skills validation __machine learning__ model. __Profiled__ each steps of the process to detect performance bottlenecks and improve throughput. Result: a __microservice__ for extracting and validating skills in context, offered as a [standalone product](https://www.textkernel.com/skills/) to customers, as well as being fully integrated in our CV parsing and vacancy parsing products.
+  - Designed and implemented various processes around the skills service. Added an internal __debug endpoint__ to explain in which conditions a certain skill can be extracted and which team to contact for which type of errors. Automated a skills __feedback pipeline__: log all unknown skills passing through the service, gather monthly reports of unknown skills and export them to Jira.
+  - Created various __CI pipelines__ for knowledge tests, release and deployment processes (integration with Jira and GitOps). Created a common repository to share CI job templates between projects. Actively involved in improving the code base and making the developer's life easier through better and more reliable pipelines.
+  - Defined and implemented a __parser__ of exported LinkedIn profiles (PDF format). Occasionally involved in __support__, gathering a better view on our products' shortcomings and on which are the most common or important issues to solve. Gave several internal __knowledge sharing talks__ (Python profiling, GitLab templates, Kubernetes deployments, internal services).
+- Keywords: microservice, corpus building, data processing, word embeddings, classification model, CI/CD  
+- Technical environment: Python, Perl, Shell Script, Elasticsearch, Kibana, Git, GitLab CI/CD, Docker, Kubernetes, GitOps, Linux
 
 ## Machine Learning Engineer
 - Company: [Qwant](https://www.qwant.com), European search engine
@@ -36,7 +41,11 @@ header:
 - Location: Nancy, France
 - Period: Dec 2012 - Feb 2016
 - Project: [RAPSODIE](http://www.erocca.com/rapsodie/rapsodie/), Speech recognition as a communication aid for deaf and hearing impaired people
-- Mission: This work focused on the optimization of lexical models for a speech recognition system and on the extraction of para-lexical information from speech. The project's objective was, at first, to build an embedded speech recognition system, meaning limited memory and computational power. I studied the choice of lexical units defining the vocabulary and the associated n-gram language model: like phonemes, words or syllables. I finally proposed a new approach based on the combination of words and syllables in a __hybrid language model__. This kind of model aimed to ensure a proper recognition of the most frequent words and to offer sequences of syllables for speech segments corresponding to out-of-vocabulary words. I also briefly worked on the __similarity between words__ (defined by similar neighbor distributions) in order to add new words into a language model. I studied the __detection of questions and statements__ in order to inform the deaf and hearing impaired people when a question was addressed to them. I defined features related to the presence of interrogative words, to the likelihood ratio between two n-gram language models (trained on statements and on questions) and to the pronunciation at the end of the sentence. Several classifiers were evaluated: logistic regression, decision trees and shallow neural networks.
+- Mission
+  - This work focused on the optimization of lexical models for a speech recognition system and on the extraction of para-lexical information from speech. The project's objective was, at first, to build an embedded speech recognition system, meaning limited memory and computational power.
+  - I studied the choice of lexical units defining the vocabulary and the associated n-gram language model: like phonemes, words or syllables. I finally proposed a new approach based on the combination of words and syllables in a __hybrid language model__. This kind of model aimed to ensure a proper recognition of the most frequent words and to offer sequences of syllables for speech segments corresponding to out-of-vocabulary words.
+  - I also briefly worked on the __similarity between words__ (defined by similar neighbor distributions) in order to add new words into a language model.
+  - I studied the __detection of questions and statements__ in order to inform the deaf and hearing impaired people when a question was addressed to them. I defined features related to the presence of interrogative words, to the likelihood ratio between two n-gram language models (trained on statements and on questions) and to the pronunciation at the end of the sentence. Several classifiers were evaluated: logistic regression, decision trees and shallow neural networks.
 - Keywords: speech recognition, hybrid language model, similar words, question detection
 - Technical environment: Perl, Java (Weka), SRILM, CMU Sphinx, Shell Script, Gnuplot, LaTeX, Git, distributed computing platform, Linux
 
