@@ -6,17 +6,35 @@ header:
   overlay_image: assets/images/msc/light_bulbs.png
 ---
 
-## Research Engineer
+## Machine learning Engineer
 - Company: [Textkernel](https://www.textkernel.com/), Machine intelligence for people and jobs
 - Location: Amsterdam, Netherlands
 - Period: Jan 2019 - Present
 - Mission
-  - Mixed software engineer, machine learning engineer and project leader role. Lead the __skills normalization__ project, planned the release of new features and managed cross-team interactions while being fully involved in the development. Involved in training and evaluating a skills validation __machine learning__ model. __Profiled__ each steps of the process to detect performance bottlenecks and improve throughput. Result: a __microservice__ for extracting and validating skills in context, offered as a [standalone product](https://www.textkernel.com/skills/) to customers, as well as being fully integrated in our CV parsing and vacancy parsing products.
-  - Designed and implemented various processes around the skills service. Added an internal __debug endpoint__ to explain in which conditions a certain skill can be extracted and which team to contact for which type of errors. Automated a skills __feedback pipeline__: log all unknown skills passing through the service, gather monthly reports of unknown skills and export them to Jira.
-  - Created various __CI pipelines__ for knowledge tests, release and deployment processes (integration with Jira and GitOps). Created a common repository to share CI job templates between projects. Actively involved in improving the code base and making the developer's life easier through better and more reliable pipelines.
-  - Defined and implemented a __parser__ of exported LinkedIn profiles (PDF format). Occasionally involved in __support__, gathering a better view on our products' shortcomings and on which are the most common or important issues to solve. Gave several internal __knowledge sharing talks__ (Python profiling, GitLab templates, Kubernetes deployments, internal services).
-- Keywords: microservice, corpus building, data processing, word embeddings, classification model, CI/CD  
-- Technical environment: Python, Perl, Shell Script, Elasticsearch, Kibana, Git, GitLab CI/CD, Docker, Kubernetes, GitOps, Linux
+  - project leader, software engineer and machine learning engineer roles. 
+  - main developer and owner of the skills extraction and normalization service providing the company’s Skills API
+    - involved in training and evaluating a skills-validation machine learning model
+    - planned the release of new features and managed cross-team interactions while being fully involved in the development
+    - profiled each steps of the process to detect performance bottlenecks and improve throughput
+    - designed and implemented various processes around it
+      - added an internal debug endpoint to explain in which conditions a certain skill can be extracted and which team to contact for which type of errors
+      - automated a skills feedback pipeline: log all unknown skills passing through the service, gather monthly reports of unknown skills and export them to Jira
+      - added logs to track usage and errors, visualize them in kibana dashboards for easier querying and debugging
+    - Result: a microservice for extracting and validating skills in context, offered as a standalone product to customers, as well as being fully integrated in the company's CV parsing and vacancy parsing products. 
+  - examples of other projects and tasks
+    - implemented a parser for PDF LinkedIn profiles
+    - helped improve the rendering and parsing of column CVs (annotated the split decision with Prodigy tool, designed a simple yet informative UI to help review the rendering differences between 2 preprocessor versions, profiled the new preprocessor, added heuristics to render contact information on top of the document)
+    - brought all the microservices up to the company's standard tech stack
+    - created a standard client for the company's upstream and internal services (check slow down and timeout limits on requests, handle retry policy, standard and user-friendly messages on errors)
+    - led a taskforce to improve the performance and memory usage on microservices, to optimize resource consumption on k8s clusters
+    - improved and standardized CI/CD pipelines of the R&D department by implementing generic templates (automated release and deployment pipelines, tracking microservice performance on changes, tracking parsing quality on resource updates, etc).
+    - actively involved in maintaining and improving the company’s code base (refactoring, creation of common libraries, separation of concerns, documentation, etc.)
+  - team player
+    - part of the DevOps rotation schedule, including monitoring & firefighting activities
+    - part of the support rotation schedule, answering questions, debugging and fixing systematic errors on the company's CV parsing and vacancy parsing tools
+    - adept of leading by example and sharing knowledge (Python profiling, GitLab templates, Kubernetes deployments, internal services, etc.)
+- Keywords: microservice, corpus building, data processing, word embeddings, classification model, CI/CD, automation, standard tech stack, breaking the monolith
+- Technical environment: Python, Perl, Shell Script, Elasticsearch, Kibana, Git, GitLab, Jenkins, Docker, Kubernetes, GitOps
 
 ## Machine Learning Engineer
 - Company: [Qwant](https://www.qwant.com), European search engine

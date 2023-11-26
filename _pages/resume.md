@@ -13,11 +13,4 @@ header:
 </figure>
 </div>
 
-<div markdown="1" style="float: left; margin-left: 5%;">
-## French
-<figure markdown="1">
-[![French CV](/assets/cv/CV_Luiza_fr_small.jpg "French CV"){: class="third" }](/assets/cv/CV_Luiza_fr.pdf)
-</figure>
-</div>
-
 <div style="clear: both;" />
