@@ -1,4 +1,4 @@
-FROM olbat/debian:stable
+FROM debian:stable
 MAINTAINER lorosanu@users.noreply.github.com
 
 RUN apt-get update \
