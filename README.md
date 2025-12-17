@@ -3,7 +3,7 @@
 ## About
 
 This website is generated using [Jekyll](https://jekyllrb.com/) with the [Minimal mistakes theme](https://mmistakes.github.io/minimal-mistakes/).
- 
+
 The pages' content is generated from [Markdown](https://en.wikipedia.org/wiki/Markdown) templates located in the [_pages/](_pages) directory.
 
 __Note__: the [website](https://lorosanu.net/) is built and deployed by [Travis CI](https://travis-ci.com/) (see [.travis.yml](.travis.yml) for further information)
@@ -27,3 +27,13 @@ __Note__: the [website](https://lorosanu.net/) is built and deployed by [Travis 
     ```
 
 * The website will be available at `http://0.0.0.0:4000/`
+
+* Update master branch
+
+  ```bash
+  git checkout master
+  git add -f _site
+  git write-tree --prefix=_site/
+  git commit-tree -m "..." <id1>
+  git reset --hard <id2>
+  ```
