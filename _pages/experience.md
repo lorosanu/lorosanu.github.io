@@ -6,99 +6,142 @@ header:
   overlay_image: assets/images/msc/light_bulbs.png
 ---
 
-## Machine learning Engineer
-- Company: [Textkernel](https://www.textkernel.com/), Machine intelligence for people and jobs
-- Location: Amsterdam, Netherlands
-- Period: Jan 2019 - Present
-- Mission
-  - project leader, software engineer and machine learning engineer roles. 
-  - main developer and owner of the skills extraction and normalization service providing the company’s Skills API
-    - involved in training and evaluating a skills-validation machine learning model
-    - planned the release of new features and managed cross-team interactions while being fully involved in the development
-    - profiled each steps of the process to detect performance bottlenecks and improve throughput
-    - designed and implemented various processes around it
-      - added an internal debug endpoint to explain in which conditions a certain skill can be extracted and which team to contact for which type of errors
-      - automated a skills feedback pipeline: log all unknown skills passing through the service, gather monthly reports of unknown skills and export them to Jira
-      - added logs to track usage and errors, visualize them in kibana dashboards for easier querying and debugging
-    - Result: a microservice for extracting and validating skills in context, offered as a standalone product to customers, as well as being fully integrated in the company's CV parsing and vacancy parsing products. 
-  - examples of other projects and tasks
-    - implemented a parser for PDF LinkedIn profiles
-    - helped improve the rendering and parsing of column CVs (annotated the split decision with Prodigy tool, designed a simple yet informative UI to help review the rendering differences between 2 preprocessor versions, profiled the new preprocessor, added heuristics to render contact information on top of the document)
-    - brought all the microservices up to the company's standard tech stack
-    - created a standard client for the company's upstream and internal services (check slow down and timeout limits on requests, handle retry policy, standard and user-friendly messages on errors)
-    - led a taskforce to improve the performance and memory usage on microservices, to optimize resource consumption on k8s clusters
-    - improved and standardized CI/CD pipelines of the R&D department by implementing generic templates (automated release and deployment pipelines, tracking microservice performance on changes, tracking parsing quality on resource updates, etc).
-    - actively involved in maintaining and improving the company’s code base (refactoring, creation of common libraries, separation of concerns, documentation, etc.)
-  - team player
-    - part of the DevOps rotation schedule, including monitoring & firefighting activities
-    - part of the support rotation schedule, answering questions, debugging and fixing systematic errors on the company's CV parsing and vacancy parsing tools
-    - adept of leading by example and sharing knowledge (Python profiling, GitLab templates, Kubernetes deployments, internal services, etc.)
-- Keywords: microservice, corpus building, data processing, word embeddings, classification model, CI/CD, automation, standard tech stack, breaking the monolith
-- Technical environment: Python, Perl, Shell Script, Elasticsearch, Kibana, Git, GitLab, Jenkins, Docker, Kubernetes, GitOps
+## Senior Machine Learning Engineer
+
+Company: [Textkernel by Bullhorn](https://www.textkernel.com/), Machine intelligence for people and jobs  
+Location: Amsterdam, Netherlands  
+Period: Feb 2022 - Present
+
+Domain: HR Tech, High-volume Parsing, NLP & LLM Integration, Microservices.
+- **Architecture & Modernization**
+  - Standardization: Led the migration of **10+ services** to Python 3.11 and Pydantic v2, significantly reducing technical debt.
+  - Infrastructure: Managed the migration of Docker images for **20+ repositories** to AWS ECR, updating Helm charts to align with company-wide standards.
+  - Monolith to microservices: Drove the extraction of core logic from legacy Perl monoliths into standalone, modern Python services.
+  - Modular parsing: Designed and implemented a modular pipeline architecture by separating extraction and derivation logic (major refactoring effort), enabling the integration of new features and drastically reducing maintenance overhead, while preserving support for legacy features.
+- **Performance & Efficiency**
+  - Optimization: Delivered **20–50% performance improvements** across key services and reduced the production footprint of high-traffic services by 50%.
+  - Latency: Reduced complex document processing time from **>5s** to **<160ms** by resolving critical tokenizer bottlenecks.
+  - Resilience: Eliminated recurring outages caused by corrupt input data by implementing robust input validation patterns.
+- **AI & LLM Strategy**
+  - Knowledge distillation: Used LLMs as teacher models to generate synthetic training data, improving the performance of existing efficient, low-latency production models.
+  - Data quality: Integrated error-analysis steps into ML training pipelines to ensure consistent output quality.
+  - Innovation: Co-developed a new LLM-based parsing service as a high-quality alternative engine for in-house CV parsing models.
+  - LLM Ops: Built an end-to-end evaluation framework to measure LLM **cost**, **latency**, and **quality** to validate production readiness.
+- **Operational Excellence**
+  - API evolution: Delivered a new version of the Candidate Input API, enabling full and partial ATS data updates.
+  - Cross-team delivery: Led the end-to-end delivery of a new feature across **seven products**, coordinating multiple teams to ensure synchronized production deployment.
+  - Observability: Standardized Grafana dashboards for consistent 4xx/5xx error tracking, speeding up root-cause analysis.
+
+Skills: Python (FastAPI, Pydantic v2), Perl, Docker, Kubernetes (Helm), AWS (ECR), LLMs (Distillation, Parsing, Evaluation), Grafana
 
 ## Machine Learning Engineer
-- Company: [Qwant](https://www.qwant.com), European search engine
-- Location: Epinal, France
-- Period: Nov 2017 - Aug 2018
-- Mission: This work focused on the __automatic query correction__. I defined a simple baseline meant to fix isolated non-word errors, using a spell-checker to generate low-distance candidates and a language model to re-rank the spelling corrections.
-- Keywords: minimum edit distance, language model
-- Technical environment: Python (spaCy, fasttext, hunspell, symspell, PyNLPl), SRILM, Shell Script, Git, GitLab, Docker, Linux
-- __Source code__: [ccquery](https://github.com/lorosanu/ccquery)
+
+Company: [Textkernel by Bullhorn](https://www.textkernel.com/), Machine intelligence for people and jobs  
+Location: Amsterdam, Netherlands  
+Period: Jan 2019 - Jan 2022
+
+Domain: HR Tech, NLP, Skills Intelligence, ML Platform Engineering.
+- **Service Ownership**: Owned the full lifecycle of the "Skills Extraction" microservice, scaling it to handle **milions of documents** per day across **25+ languages** with **<50ms** (p90) latency. Successfully delivered it as both a standalone product and an integrated component of CV/vacancy parsing.
+- **Taxonomy & ML Integration**: Engineered a hybrid extraction engine combining a strict skills taxonomy with ML-based contextual validation; automated a "**feedback loop**" (ELK, Jira) that identified "unknown skills" in production traffic and reported them to the Knowledge team, driving continuous taxonomy improvement.
+- **Complex Parsing Solutions**: Engineered a custom parser for PDF LinkedIn profiles and collaborated on the multi-column CV rendering upgrade by designing validation UIs and implementing extraction heuristics.
+- **CI/CD Standardization**: Unified engineering workflows by creating generic GitLab **CI/CD templates**; drove department-wide adoption where every engineer migrated their service configurations to the new standard, ensuring consistent performance tracking and release automation across the fleet.
+- **Resilience Engineering**: Designed and implemented a standardized internal service client library with built-in retries, timeout policies, and user-friendly error messages. Impact: Adopted by the team for **10+ microservices**, significantly stabilizing upstream communication.
+- **Observability & DevEx**: Built **internal debug endpoint** and Kibana dashboards to trace extraction logic, drastically reducing the "Time to Resolution" for support tickets regarding skill extraction errors.
+- **DevOps & Support**: Ensured platform stability by leading incident response and resolving systematic defects in core parsing products.
+- **Technical Mentorship**: Upskilled the team on Python profiling, CI/CD, and GitOps workflows to foster technical excellence.
+
+Skills: Microservices, NLP, Elasticsearch, CI/CD (GitLab), API Design, Python, Docker, Kubernetes.
 
 ## Machine Learning Engineer
-- Company: [Xilopix](https://www.xaphir.com), French search engine
-- Location: Epinal, France
-- Period: Oct 2016 - Nov 2017
-- Mission: This work focused on the __web page classification__ and on the __image color classification__. The web page content was mapped to a fixed-dimensional vector using TF-IDF and LSA. Both classification processes were performed with fully connected neural networks. I was charged with the entire machine learning workflow, from data acquisition, data processing up to the development of libraries and the deployment of code and models in production.
-- Keywords: corpus building, data processing, text classification, color classification, TF-IDF, LSA, neural networks
-- Technical environment: Ruby (rmagick), Python (gensim, sklearn, matplotlib), Shell Script, Git, Gerrit, Docker, ElasticSearch, Linux
-- __Source code__: [xi-ml-topicdiscovery](https://github.com/lorosanu/xi-ml-topicdiscovery), [xi-dip](https://github.com/lorosanu/xi-dip)
+
+Company: [Qwant](https://www.qwant.com), European search engine  
+Location: Epinal, France  
+Period: Nov 2017 - Aug 2018
+
+Domain: Search, NLP, Query Understanding
+- **Query Correction**: Worked on automatic query correction for the Qwant European search engine.
+- **System Design**: Designed and implemented a baseline correction system for isolated spelling errors in user search queries, using a two-stage NLP solution:
+  - generated candidate corrections using edit-distance–based spell checking,
+  - re-ranked them using a **language model**.
+
+Source code: [ccquery](https://github.com/lorosanu/ccquery)  
+Skills: NLP, Query Correction, Language Models, Edit Distance, Python (spaCy, fasttext, hunspell, symspell, PyNLPl), SRILM, Docker, GitLab  
+
+## Machine Learning Engineer
+
+Company: [Xilopix](https://www.xaphir.com), French search engine  
+Location: Epinal, France  
+Period: Oct 2016 - Nov 2017
+
+Domain: Machine Learning, NLP, Information Retrieval, Search Engine
+- **End-to-end ownership**: Owned the Machine Learning workflow from raw data acquisition (Elasticsearch) to production deployment.
+- **Modeling**: Built neural network classifiers for webpage topic detection (TF-IDF, LSA) and image color classification:
+  - trained an LSA model on **40M documents** to transform raw text into **300-dimensional semantic vectors**.
+  - achieved **96% F1 score** on the held-out dataset.
+- **Integration**: Solved a complex integration constraint by training models in **Python** and re-implementing inference logic in **Ruby**, ensuring prediction parity.
+- **Deployment**: Deployed models into production indexing, exposing predictions and probabilities to enable threshold tuning and downstream filtering.
+- **Engineering rigor**: Strengthened software practices around modularity, versioning, testing, performance optimization, and reproducibility.
+
+Source code: [xi-ml-topicdiscovery](https://github.com/lorosanu/xi-ml-topicdiscovery), [xi-dip](https://github.com/lorosanu/xi-dip)  
+Skills: Machine Learning, NLP, Text Classification, Neural Networks, TF-IDF, LSA/LSI, Elasticsearch, Python (gensim, scikit-learn), Ruby, Docker, CI/CD
 
 ## PhD student
-- Company: [Inria](https://www.inria.fr) (French national research institute), Université de Lorraine
-- Location: Nancy, France
-- Period: Dec 2012 - Feb 2016
-- Project: [RAPSODIE](http://www.erocca.com/rapsodie/rapsodie/), Speech recognition as a communication aid for deaf and hearing impaired people
-- Mission
-  - This work focused on the optimization of lexical models for a speech recognition system and on the extraction of para-lexical information from speech. The project's objective was, at first, to build an embedded speech recognition system, meaning limited memory and computational power.
-  - I studied the choice of lexical units defining the vocabulary and the associated n-gram language model: like phonemes, words or syllables. I finally proposed a new approach based on the combination of words and syllables in a __hybrid language model__. This kind of model aimed to ensure a proper recognition of the most frequent words and to offer sequences of syllables for speech segments corresponding to out-of-vocabulary words.
-  - I also briefly worked on the __similarity between words__ (defined by similar neighbor distributions) in order to add new words into a language model.
-  - I studied the __detection of questions and statements__ in order to inform the deaf and hearing impaired people when a question was addressed to them. I defined features related to the presence of interrogative words, to the likelihood ratio between two n-gram language models (trained on statements and on questions) and to the pronunciation at the end of the sentence. Several classifiers were evaluated: logistic regression, decision trees and shallow neural networks.
-- Keywords: speech recognition, hybrid language model, similar words, question detection
-- Technical environment: Perl, Java (Weka), SRILM, CMU Sphinx, Shell Script, Gnuplot, LaTeX, Git, distributed computing platform, Linux
 
-## Support the integration of foreigners working at INRIA (LORIA)
-- Company: [Inria](https://www.inria.fr), French national research institute
-- Location: Nancy, France
-- Period: Feb 2014 – Aug 2015
-- Mission: I organized meetings (guided visits of the old town) and activities (monthly board games sessions) in order to facilitate the integration of foreigners in the center. I answered practical and cultural questions. I assisted with administrative procedures (welcoming of new arrivals, presentations of the French tax system).
+Company: [Inria](https://www.inria.fr) (French national research institute), Université de Lorraine  
+Location: Nancy, France  
+Period: Dec 2012 - Feb 2016  
 
-## Junior Software Engineer
-- Company: [Inria](https://www.inria.fr), French national research institute
-- Location: Nancy, France
-- Period: Oct 2011 - Dec 2012
-- Project: [ALLEGRO](http://www.allegro-project.eu/), Speech recognition for second language learning
-- Mission: This work focused on the __detection of incorrect entries__ (i.e. those for which the text does not correspond to the associated speech signal) of non-native speech in the context of foreign language learning. I exploited the comparison between two text-to-speech alignments: one constrained by the text which was being checked (forced alignment), with another one unconstrained, corresponding to a phonetic decoding (using a phoneme loop or a word loop). I combined several comparison criteria via a logistic regression function: the likelihood ratios, the use of phonemes and their duration, of phonetic classes and of non-speech units. This position revolved mainly around __feature engineering__ (using domain knowledge) and __performance analysis__.
-- Keywords: speech recognition, incorrect entries, non-native speech, constrained and unconstrained alignments, logistic regression
-- Technical environment: Perl, Shell Script, Gnuplot, LaTeX, Linux
+Domain: Speech Recognition, Language Modeling, Assistive Technologies
+- Project [RAPSODIE](http://www.erocca.com/rapsodie/rapsodie/): Conducted doctoral research on building communication aids for the deaf and hearing-impaired. Focused on accurate Speech-to-Text systems for embedded devices with limited memory.
+- **Hybrid Language Model**: Proposed and implemented a novel model combining words and syllables to handle out-of-vocabulary words while preserving accuracy on frequent words.
+- **Vocabulary expansion**: Investigated word similarity based on contextual distributions to support dynamic vocabulary growth in language models.
+- **Intent detection**: Developed a real-time system to detect questions vs. statements using lexical and prosodic features (pitch, n-gram likelihoods), training classifiers like logistic regression, decision trees and shallow neural networks.
 
-## Intern
-- University: Université de Lorraine
-- Location: Nancy, France
-- Period: Feb 2011 - Juin 2011
-- Title: Speech recognition with remote sound for a home automation system
-- Abstract: This work focused on the __performance evaluation__ of a speech recognition system with remote sound. I tested different configurations, different decoding settings and different models (acoustic models and language models) in order to determine the setup leading to optimal performance.
-- Keywords: speech recognition, remote sound, adaptation, optimal settings
-- Technical environment: Java, Perl, SRILM, CMU Sphinx, HTK, Shell Script, Linux
+Skills: Speech Recognition, Language Models, Feature Engineering, Experimental ML, Distributed Computing, Git,  Perl, Java, LaTeX
 
-## Intern
-- University: Universitatea 'Stefan cel Mare'
-- Location: Suceava, Romania
-- Period: Feb 2010 - Juin 2010
-- Title: Acquisition and recognition of head movements for the gesture control in video games
-- Abstract: This work was based on the idea that users get emotionally involved while controlling the actions of video games though unconscious body movements; and these unconscious movements could be detected and used as the actual (natural) control of the game. I therefore developed a new way of __tracking head movements__ which was able to learn the useful gestures to __control a video game__. The demonstration was performed using a Wii remote that tracked the head position through glasses equipped with IR LEDs.
-- Keywords: head movements, Wii remote, infrared sensors
-- Technical environment: C#, Microsoft Visual Studio, Windows
+## Support for international employees
+
+Company: [Inria](https://www.inria.fr), French national research institute  
+Location: Nancy, France  
+Period: Feb 2014 – Aug 2015  
+Facilitated the integration of international researchers by organizing monthly group activities and assisting with administrative procedures.
+
+## Junior Research Engineer
+
+Company: [Inria](https://www.inria.fr), French national research institute  
+Location: Nancy, France  
+Period: Oct 2011 - Dec 2012  
+
+Domain: Speech Recognition, Applied Machine Learning
+- **Speech Verification**: Developed ML models to detect mismatches between speech and text in non-native speech for language learning systems.
+- **Feature Engineering**: Engineered feature sets comparing constrained (forced) vs. unconstrained (phonetic) text-to-speech alignments, leveraging domain-specific knowledge (phonetic classes, phoneme durations, n-gram likelihoods).
+- **Analysis**: Trained logistic regression models and conducted systematic experiments to analyze the effects of pronunciation variations and training data quality.
+
+Skills: Speech Recognition, Feature Engineering, Logistic Regression, Data Analysis, Model Evaluation
+
+## Intern - Research & Software Development
+
+University: Université de Lorraine  
+Location: Nancy, France  
+Period: Feb 2011 - Juin 2011
+
+Domain: Speech Recognition, Remote sound, Home Automation
+- **Optimization**: Tested multiple acoustic/language models and decoding configurations to optimize speech recognition in noisy, remote-microphone setups.
+- **Automation**: Developed scripts (Java, Perl, Shell) to automate performance testing across different environments.
+
+Skills: Automatic Speech Recognition (ASR), Remote sound, Java, Perl, Linux
+
+## Intern - Research & Software Development
+
+University: Universitatea 'Stefan cel Mare'  
+Location: Suceava, Romania  
+Period: Feb 2010 - Juin 2010
+
+Domain: Human–Computer Interaction (HCI), Gesture-Based Gaming Interfaces
+- **Prototyping**: Engineered a custom setup using a Wii remote and IR LED glasses to capture head position.
+- **Algorithm Design**: Implemented algorithms to filter noise and map natural head motions to video game inputs in real-time.
+
+Skills: C#, Computer Vision, Algorithm Design, Rapid Prototyping, Human-Computer Interaction (HCI)
 
 <figure class="third">
   <img src="/assets/images/bsc/glasses.png" title="glasses with IR leds">
